@@ -10,6 +10,7 @@ body {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -19,6 +20,7 @@ body {
     height: 7.5rem;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .btn-div {
@@ -45,7 +47,25 @@ body {
     padding-top: 0.6rem;
     margin-top: 1rem;
     cursor: pointer;
+
   
+}
+
+#new-game-btn {
+    border-radius: 5px;
+    border-width: 2px;
+    background-color: #0C4A6E;
+    font-family: CursedTimer;
+    font-size: 1.125rem;
+    width: 20rem;
+}
+
+#new-game-box {
+    display:block;
+    justify-self: center;
+    margin-top: 2rem;
+    
+
 }
 
 .score {
@@ -55,6 +75,12 @@ body {
     font-weight: 400;
     font-size: 5.625rem;
     padding-top:0.5rem;
-    color: #white;
+    color: white;
 }
 
+
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}

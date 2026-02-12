@@ -48,3 +48,11 @@ function guestscore3() {
   guestScoreBoard.innerText = guestScore;
   leader()
 }
+
+function newgame() {
+  homeScore = 0
+  guestScore = 0
+  homeScoreBoard.innerText = homeScore;
+  guestScoreBoard.innerText = guestScore;
+  leader()
+}
